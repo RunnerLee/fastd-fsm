@@ -5,7 +5,7 @@
  * @time: 2018-03
  */
 
-namespace Runner\FastdFsm;
+namespace Runner\FastdFSM;
 
 use FastD\Container\Container;
 use FastD\Container\ServiceProviderInterface;
