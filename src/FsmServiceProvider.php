@@ -7,14 +7,15 @@
 
 namespace Runner\FastdFsm;
 
-use Runner\Heshen\Factory;
 use FastD\Container\Container;
 use FastD\Container\ServiceProviderInterface;
+use Runner\Heshen\Factory;
 
 class FsmServiceProvider implements ServiceProviderInterface
 {
     /**
      * @param Container $container
+     *
      * @return mixed
      */
     public function register(Container $container)
