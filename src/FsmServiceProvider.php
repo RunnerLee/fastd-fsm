@@ -20,9 +20,12 @@ class FsmServiceProvider implements ServiceProviderInterface
      */
     public function register(Container $container)
     {
+        config()->merge([
+            'fsm' => load(app()->getPath().'/config/fsm.php'),
+        ]);
         $container->add(
             'fsm',
-            new Factory($container->get('config')->get('fsm.blueprints'))
+            new Factory(config()->get('fsm.blueprints'))
         );
     }
 }
