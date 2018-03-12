@@ -1,0 +1,22 @@
+{
+    "name": "runner/fastd-fsm",
+    "description": "finite state machine provider for fastd",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "RunnerLee",
+            "email": "runnerleer@gmail.com",
+            "homepage": "https://runnerlee.com"
+        }
+    ],
+    "require": {
+        "fastd/container": "^3.0",
+        "runner/heshen": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Runner\\FastdFSM\\": "src"
+        }
+    }
+}
