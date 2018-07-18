@@ -12,7 +12,8 @@
     ],
     "require": {
         "fastd/fastd": "^3.0",
-        "runner/heshen": "~1.0.0"
+        "runner/heshen": "~1.0.0",
+        "illuminate/database": "^5.5"
     },
     "autoload": {
         "psr-4": {
